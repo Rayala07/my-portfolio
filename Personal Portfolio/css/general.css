@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway, Arial;
+    background-color: #0f0f0f;
+    color: rgb(210,210,210);
+    margin-bottom: 1000px;
+}

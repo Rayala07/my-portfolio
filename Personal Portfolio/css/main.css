@@ -1,0 +1,380 @@
+/*Home Section*/
+
+.profile-pic {
+  height: 385px;
+  width: 385px;
+  margin-right: 200px;
+  border-radius: 50%;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 145px;
+  padding-bottom: 62px;
+}
+
+.intro {
+  width: 550px;
+  margin-left: 92px;
+}
+
+.greeting {
+  font-size: 20px;
+}
+
+.name {
+  padding-left: 5px;
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(210, 210, 210);
+}
+.description {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-top: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-right: 30px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.get-started,
+.download {
+  background-color: #3f8e00;
+  color: white;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  margin-right: 64px;
+}
+.get-started:hover,
+.download:hover {
+  box-shadow: 2px 3px 24px #325912;
+}
+
+/*coding platform Section*/
+.code-title {
+  margin-top: 22px;
+  margin-left: 200px;
+  font-family: IBM Plex Mono, Arial;
+  font-size: 15px;
+  font-weight: 350;
+}
+
+.code-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-left: 200px;
+  gap: 30px;
+}
+.code-container a {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 20px;
+  font-weight: 700;
+  color: #9c9c9c;
+  display: flex;
+  align-items: center;
+}
+
+.github-text {
+  padding-left: 10px;
+}
+
+.github-box,
+.leetcode-box {
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+  padding: 13px 14px;
+
+  border-color: #232323;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.github-box img,
+.leetcode-box img {
+  height: 40px;
+  width: 40px;
+  margin-right: 4px;
+}
+
+/* About Section */
+
+.about {
+  margin-top: 70px;
+  padding-bottom: 60px;
+  background-color: rgb(249, 249, 249);
+}
+.about h1 {
+  color: #080808;
+  padding-top: 70px;
+  font-weight: 950;
+  font-size: 40px;
+  margin-left: 675px;
+  padding-bottom: 8px;
+}
+.about-description {
+  color: #9c9c9c;
+  font-family: IBM Plex Mono, Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 405px;
+}
+
+.education-text {
+  color: #4075d0;
+  font-family: IBM Plex Mono, Arial;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 9px;
+}
+
+.education-tag {
+  display: inline-block;
+  margin-left: 214px;
+  border-radius: 20px;
+  margin-top: 45px;
+  background-color: #cbd9f5;
+}
+
+.academic-journey {
+  color: #080808;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 26px;
+  margin-left: 215px;
+}
+
+.academic-journey-content {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #9c9c9c;
+  margin-left: 214px;
+  margin-right: 140px;
+  margin-top: 10px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.education-img,
+.tech-stack-img,
+.interests-img {
+  height: 220px;
+}
+.education-img-container {
+  margin-right: 214px;
+  margin-top: 85px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}
+
+/* Tech Stack */
+.about-content-tech {
+  display: flex;
+  align-items: center;
+}
+
+.focus {
+  color: #f49b02;
+  font-size: 12px;
+  font-family: IBM Plex Mono, Arial;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+.focus-tag {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #fcedd9;
+  margin-top: 45px;
+}
+
+.tech-stack-img-container {
+  margin-top: 80px;
+  margin-left: 210px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}
+
+.tech-stack {
+  margin-left: 130px;
+  margin-right: 205px;
+}
+
+.tech-stack-title {
+  color: #080808;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.tech-stack-content {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #9c9c9c;
+  margin-top: 10px;
+}
+
+/*Interests Section*/
+.about-content-interests {
+  display: flex;
+  align-items: center;
+}
+.interests {
+  color: #17b8a6;
+  padding: 8px 9px;
+  letter-spacing: 1px;
+  font-family: IBM Plex Mono, Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+.interests-tag {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #e0fff8;
+  margin-top: 45px;
+  margin-left: 214px;
+}
+
+.interests-title {
+  color: #080808;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 26px;
+  margin-left: 214px;
+}
+
+.interests-content {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #9c9c9c;
+  margin-top: 10px;
+  margin-right: 110px;
+  margin-left: 214px;
+}
+
+.interests-img-container {
+  margin-right: 190px;
+  margin-top: 85px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}
+
+/* Skills-section */
+.skills {
+  padding-top: 70px;
+}
+.skills-title {
+  color: rgb(210, 210.21);
+  font-size: 40px;
+  font-weight: 950;
+  margin-left: 675px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.languages-header {
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.languages-title {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.skills-guideline {
+  font-family: IBM Plex Mono, Arial;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #a8a7a7;
+  margin-top: 10px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  max-width: 80rem;
+  margin-left: 35px;
+  margin-top: 60px;
+}
+
+.skill-card {
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #374151;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background: rgba(17,24,39,0.3);
+  backdrop-filter: blur(8px);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+
+.skill-card:hover{
+  transform: scale(1.04);
+}
+
+.skill-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: IBM Plex Mono, Arial;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #9c9c9c;
+  font-weight: bold;
+}
+
+.skill-icon {
+  height: 40px;
+}
+
+.skill-card-2 {
+  margin-left: 0px;
+}
